@@ -1,1 +1,8 @@
+# File: netlify.toml
+# Configurações para o deploy no Netlify
+
+[build]
+  # Diretório onde as funções serverless (proxy) estão localizadas.
+  functions = "netlify/functions/"
+
 
